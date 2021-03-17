@@ -1,0 +1,84 @@
+/* constom css for the hero section */
+.heroStyle {
+  margin: 10rem 0 13rem 0;
+  width: 100%;
+  height: 100%;
+}
+.hero-btn{
+  border-radius: 0.5rem;
+  border: 1px solid #0a192f;
+  display: inline-block;
+  background: transparent;
+  color: #0a192f;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+}
+
+.writeUp {
+  width: 600px;
+  font-weight: 500;
+}
+.about-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-list li i {
+  color: #0a192f;
+}
+.project-img img {
+  border-radius: 1rem;
+  max-width: 100%;
+  height: auto;
+}
+.project-txt {
+  text-align: right;
+}
+.pro-txt {
+  padding: 0.5rem;
+  margin: 1rem 0;
+  text-align: right;
+  font-size: 0.8rem;
+}
+.project-txt a {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.project-txt a:hover {
+  color: aqua;
+}
+/* styling for passport img */
+.passport {
+  border-radius: 20px;
+  margin: 0 2rem;
+  max-width: 80%;
+  height: auto;
+}
+.passport-txt {
+  text-align: justify;
+}
+.profile-icons {
+  margin: 0 2rem;
+  text-align: right;
+  color: #0a192f;
+}
+.profile-icons a {
+  margin: 0 0.4rem;
+}
+/* stylig for footer */
+footer {
+  margin-top: 2rem;  
+  text-align: center;  
+}
+footer i {
+  margin: 0.2rem 0.5rem;
+  font-size: 1.5rem;
+}
+
